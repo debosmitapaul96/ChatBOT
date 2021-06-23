@@ -1,0 +1,212 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "diet",
+      "patterns": [
+        "What should be my ideal diet to stay healthy?",
+        "What will be my ideal diet?",
+        "How can I stay healthy?" 
+      ],
+      "responses": [
+        "Healthy eating means consuming the right portions (Quantity) of foods from all food groups to lead a healthy life.",
+        " We need a wide range of nutrients to lead a healthy and an active life style.",
+        "The requirement of nutrient keeps changing in different phase of life.",
+        "more of proteins containing the essential food groups and nutrients - vitamin A, C, calcium, iron and zinc.",
+        "A Healthy good diet should be fitting in your nutritional lifestyle and not lifestyle fitting in diet."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "doctors",
+      "patterns": [
+        "How many doctors and / or provider?",
+        "How many Doctors are availabe?",
+        "How many doctors are there?"
+      ],
+      "responses": [
+       "Currently there are more than 70 providers at five Health Care locations.",
+       "Total of 70 providers include Doctors,Nurse Practitioners, Physician Assistants, Dentists and Hygienists."
+      ]
+    },
+     {
+      "tag": "appointment",
+      "patterns": [
+        "How can I make an appointment?",
+        "How can we make appointment?",
+        "What is needed to make an appointment?"
+      ],
+      "responses": [
+        "Call (253) 722-2161 for general medical or dental information or to make a medical appointment.",
+        "Call (253) 722-2151 for general dental or medical information or to make a dental appointment."
+      ]
+    },
+     {
+      "tag": "choosedoctor",
+      "patterns": [
+        "Do people choose their doctor?",
+        "Can I choose doctor?",
+        "May I able to choose the doctor?"
+      ],
+      "responses": [
+        "Yes, people choose their doctor or dentist. Our providers offer a wide range of abilities and experiences.", 
+        "yes!Patients can choose which doctor or dentist is right for them."
+      ]
+    },
+     {
+      "tag": "nursinghome",
+      "patterns": [
+        "What if a patient needs a nursing home?",
+        "What if I need a nursing home?",
+        "Can i get a nursing home with your help?",
+        "Can i get a nursing home?"
+      ],
+      "responses": [
+        "Our Outreach Staff works with the patient to find an affordable nursing home.For this you have to contact at (25) 657-525-50 ."
+      ]
+    },
+    {
+      "tag": "patientportal",
+      "patterns": [
+       "How do i access the Patient Portal?",
+       "How can I access my Patient portal?",
+       "How can i see my patient portal?"
+      ],
+      "responses": [
+        "Set a user name and password to access your patient portal.", 
+        "Enter your user name and password in YourChart to sign up.",
+        "If you have problems accessing the patient portal call or email to Our Health Care’s department during business hours at (25) 727-521-10 .",
+        "You can self-enroll in the Patient Portal by using yuor password and ID."
+      ]
+    },
+    {
+      "tag": "worse",
+      "patterns": [
+        "Is COVID-19 worse than flu?",
+        "is covid-19 worse than anything?",
+        "is covid_19 better than anyother flu?"
+      ],
+      "responses": [
+        "COVID-19 has a higher rate of severe disease and mortality in nearly every age group, compared with influenza (flu)."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "what are the symptoms of COVID-19?",
+        "what type of symptoms covid-19 has?",
+        "how will i know if i have covid?"
+      ],
+      "responses": [
+        "The most common symptoms of COVID-19 are:Fever,Dry cough,Fatigue,Loss of taste or smell,Nasal congestion,Sore throat,Headache",
+        "If you have symptoms of Loss of taste or smell,Nasal congestion,Fever,Dry cough,Sore throat,Headache then probably you have covid."
+      ]
+    },
+     {
+      "tag": "test",
+      "patterns": [
+        "When should i get tested for Covid-19?",
+        "when is the right time to get tested for covid-19?"
+      ],
+      "responses": [
+        "Anyone with symptoms should be tested, wherever possible.", 
+        "People who do have symptoms or not but have had close contact with someone who is or may be infected may also consider testing",
+        "If you have covid symptoms contact your local health guidelines and follow their guidance or get tested."
+      ]
+    },
+     {
+      "tag": "effect",
+      "patterns": [
+        "Are there long-term effect of covid-19?",
+        "what are the after effect of covid-19",
+        "after covid what kind of effect will be there?"
+      ],
+      "responses": [
+        "Some people who have had COVID-19 whether they have needed hospitalization or not continue to experience symptoms,including fatigue,respiratory and neurological symptoms."
+      ]
+    },
+     {
+      "tag": "time",
+      "patterns": [
+        "How long does covid-19 take to develop symptoms?",
+        "how many days covid-19 take to develop symptoms?",
+        "After how many days covid-19 develops its symptoms?"
+      ],
+      "responses": [
+        "The time from exposure to COVID-19 to the moment when symptoms begin is, on average, 5-6 days and can range from 1-14 days.",
+        "Normally 5-6 days to range fom 1-14 days and advised to remain at home and stay away from others for 14 days.",
+        "It takes 1-14 days and keep distance from others in order to prevent the spread of the virus."
+      ]
+    },
+    {
+      "tag": "havecovid",
+      "patterns": [
+        "what should i do if i have covid symptoms?",
+        "what is the first thing to do if i have covid symptoms?",
+        "What will i do if i have covid?",
+        "what should i do if i doubt having symptoms of covid-19?",
+        "what if i have covid-19?"
+      ],
+      "responses": [
+        "If you have any symptoms of COVID-19, call your health care provider or COVID-19 hotline and find out when and where to get a test stay at home for 14 days.",
+        "If you have symptoms then contact doctor and get youself testes as soon as possible and maintain distance from others.",
+        "If you have shortness of breath or pain or pressure in the chest, seek medical attention at a health facility immediately.",
+        "Call your health care provider or hotline in advance for direction to the right health facility."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
